@@ -1,0 +1,2 @@
+export DYLD_LIBRARY_PATH="/Users/fubo/lib/lib"
+g++ *.cpp -lxml2 -I/usr/include/libxml2/ -L/usr/lib/x86_64-linux-gnu/ -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_imgcodecs -lopencv_video -lopencv_videoio -lopencv_features2d -lopencv_objdetect -p -o tracking
